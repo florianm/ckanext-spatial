@@ -2,6 +2,9 @@
 ckanext-spatial - Geo related plugins for CKAN
 ==============================================
 
+.. image:: https://travis-ci.org/ckan/ckanext-spatial.svg?branch=master
+    :target: https://travis-ci.org/ckan/ckanext-spatial
+
 
 This extension contains plugins that add geospatial capabilities to CKAN_,
 including:
@@ -12,10 +15,12 @@ including:
 * Harvesters to import geospatial metadata into CKAN from other sources
   in ISO 19139 format and others.
 * Commands to support the CSW standard using pycsw_.
-* Plugins to preview spatial formats such as GeoJSON_.
+
+**Note**: The view plugins for rendering spatial formats like GeoJSON_ have
+been moved to ckanext-geoview_.
 
 Full documentation, including installation instructions, can be found at:
-    
+
 http://docs.ckan.org/projects/ckanext-spatial
 
 
@@ -49,4 +54,5 @@ http://www.fsf.org/licensing/licenses/agpl-3.0.html
 .. _PostGIS: http://postgis.org
 .. _pycsw: http://pycsw.org
 .. _GeoJSON: http://geojson.org
+.. _ckanext-geoview: https://github.com/ckan/ckanext-geoview
 
