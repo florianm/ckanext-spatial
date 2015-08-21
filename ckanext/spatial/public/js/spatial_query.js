@@ -109,7 +109,8 @@ this.ckan.module('spatial-query', function ($, _) {
           polygon: false,
           rectangle: {
             shapeOptions: module.options.style,
-            title: 'Draw rectangle'
+            title: 'Draw rectangle',
+            repeatMode: false
           }
         },
         edit: false,
